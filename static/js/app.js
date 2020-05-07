@@ -5,7 +5,7 @@ var testSubjectIds;
 var samples;
 var metadata;
 //Read the json file for data
-d3.json("/Plotly-Challenge/static/samples.json").then((data) => {
+d3.json("./static/samples.json").then((data) => {
     testSubjectIds = data.names;
     samples = data.samples;
     metadata = data.metadata;
